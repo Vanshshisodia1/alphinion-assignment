@@ -12,7 +12,7 @@ This Python project implements an Exponentially Weighted Moving Average Crossove
 
 - **Data Fetching**: Retrieves historical closing prices of Nifty 50 stocks from January 1, 2022, to the present using the `yfinance` library.
 - **EWMAC Calculation**: Computes EWMAs for specified short and long periods and calculates the EWMAC value to determine market trends.
-- **Buy Signal Generation**: Identifies buy signals when both EWMAC indicators are positive, indicating potential upward momentum.
+- **Buy Signal Generation**: Identifies buy signals when both EWMAC(4, 16) and EWMAC(8, 32) indicators are positive, indicating potential upward momentum.
 - **Weight Allocation**: Allocates portfolio weights to the top 10 recently positive stocks, ensuring diversified investment.
 - **Weekly Rebalancing**: Updates portfolio weights every week based on the latest buy signals.
 - **Backtesting**: Evaluates the strategy’s performance through various metrics, including:
