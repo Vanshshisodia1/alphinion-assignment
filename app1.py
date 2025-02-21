@@ -5,11 +5,14 @@ import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 
 # fetch nifty 50 stocks
-nifty50_tickers = ["ADANIENT.NS", "APOLLOHOSP.NS", "BAJAJ-AUTO.NS", "BAJAJFINSV.NS", "BAJFINANCE.NS", 
-    "BHARTIARTL.NS", "BRITANNIA.NS", "CIPLA.NS", "COALINDIA.NS", "HDFCLIFE.NS", "HEROMOTOCO.NS", 
-    "HINDALCO.NS", "INDUSINDBK.NS", "ITC.NS", "KOTAKBANK.NS", "LT.NS", "MARUTI.NS", "NESTLEIND.NS", 
-    "NTPC.NS", "ONGC.NS", "RELIANCE.NS", "SHRIRAMFIN.NS", "TATACONSUM.NS", "TATASTEEL.NS", "TCS.NS", 
-    "TITAN.NS", "TRENT.NS", "ULTRACEMCO.NS", "WIPRO.NS"]
+nifty50_tickers = ["ADANIENT.NS", "ADANIPORTS.NS", "APOLLOHOSP.NS", "ASIANPAINT.NS", "AXISBANK.NS", 
+                   "BAJAJ-AUTO.NS", "BAJFINANCE.NS", "BAJAJFINSV.NS", "BEL.NS", "BPCL.NS", "BHARTIARTL.NS", 
+                   "BRITANNIA.NS", "CIPLA.NS", "COALINDIA.NS", "DRREDDY.NS", "EICHERMOT.NS", "GRASIM.NS", 
+                   "HCLTECH.NS", "HDFCBANK.NS", "HDFCLIFE.NS", "HEROMOTOCO.NS", "HINDALCO.NS", "HINDUNILVR.NS", 
+                   "ICICIBANK.NS", "ITC.NS", "INDUSINDBK.NS", "INFY.NS", "JSWSTEEL.NS", "KOTAKBANK.NS", "LT.NS", 
+                   "M&M.NS", "MARUTI.NS", "NTPC.NS", "NESTLEIND.NS", "ONGC.NS", "POWERGRID.NS", "RELIANCE.NS", 
+                   "SBILIFE.NS", "SHRIRAMFIN.NS", "SBIN.NS", "SUNPHARMA.NS", "TCS.NS", "TATACONSUM.NS", 
+                   "TATAMOTORS.NS", "TATASTEEL.NS", "TECHM.NS", "TITAN.NS", "TRENT.NS", "ULTRACEMCO.NS", "WIPRO.NS"]
 
 # define time period
 start_date = "2022-01-01" 
@@ -98,3 +101,4 @@ plt.xlabel('Date')
 plt.ylabel('Cumulative Returns')
 plt.legend()
 plt.show()
+
